@@ -7,6 +7,7 @@ import { useStateContext } from "@component/context/StateContext";
 
 const Navbar = () => {
   const { showCart, setShowCart, totalQuantities } = useStateContext();
+  // console.log(totalQuantities);
 
   return (
     <div className="navbar-container">
